@@ -1,0 +1,29 @@
+{
+  "name": "image-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atilagulers/image-generator.git"
+  },
+  "author": "atila guler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atilagulers/image-generator/issues"
+  },
+  "homepage": "https://github.com/atilagulers/image-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.11.0",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "openai": "^4.5.0",
+    "readline-sync": "^1.4.10"
+  }
+}
